@@ -12,6 +12,12 @@
 		0D2A145620BC98FB005FA212 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A145520BC98FB005FA212 /* FirebaseReference.swift */; };
 		0D2A145920BC9FCA005FA212 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A145820BC9FCA005FA212 /* User.swift */; };
 		0D2A145B20BCB56C005FA212 /* FIRImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A145A20BCB56C005FA212 /* FIRImage.swift */; };
+		0D61D36120BF3FAE009BB10E /* NewsfeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36020BF3FAE009BB10E /* NewsfeedTableViewController.swift */; };
+		0D61D36320BF3FBB009BB10E /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36220BF3FBB009BB10E /* SignUpTableViewController.swift */; };
+		0D61D36520BF3FDC009BB10E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36420BF3FDC009BB10E /* WelcomeViewController.swift */; };
+		0D61D36720BF48AB009BB10E /* ImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36620BF48AB009BB10E /* ImagePickerHelper.swift */; };
+		0D61D36D20BFDA72009BB10E /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36C20BFDA72009BB10E /* LoginTableViewController.swift */; };
+		0D61D36F20BFDE99009BB10E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D36E20BFDE99009BB10E /* ProfileViewController.swift */; };
 		0D7CA72120B9E5DE007F2716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CA72020B9E5DE007F2716 /* AppDelegate.swift */; };
 		0D7CA72620B9E5DE007F2716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CA72420B9E5DE007F2716 /* Main.storyboard */; };
 		0D7CA72820B9E5E0007F2716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7CA72720B9E5E0007F2716 /* Assets.xcassets */; };
@@ -25,6 +31,13 @@
 		0D2A145520BC98FB005FA212 /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
 		0D2A145820BC9FCA005FA212 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0D2A145A20BCB56C005FA212 /* FIRImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRImage.swift; sourceTree = "<group>"; };
+		0D61D36020BF3FAE009BB10E /* NewsfeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedTableViewController.swift; sourceTree = "<group>"; };
+		0D61D36220BF3FBB009BB10E /* SignUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
+		0D61D36420BF3FDC009BB10E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0D61D36620BF48AB009BB10E /* ImagePickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerHelper.swift; sourceTree = "<group>"; };
+		0D61D36820BFD92B009BB10E /* Moments-App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Moments-App.entitlements"; sourceTree = "<group>"; };
+		0D61D36C20BFDA72009BB10E /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		0D61D36E20BFDE99009BB10E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0D7CA71D20B9E5DE007F2716 /* Moments-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moments-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7CA72020B9E5DE007F2716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D7CA72520B9E5DE007F2716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +71,40 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0D61D36920BFDA0F009BB10E /* User Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0D61D36220BF3FBB009BB10E /* SignUpTableViewController.swift */,
+				0D61D36420BF3FDC009BB10E /* WelcomeViewController.swift */,
+				0D61D36C20BFDA72009BB10E /* LoginTableViewController.swift */,
+			);
+			path = "User Authentication";
+			sourceTree = "<group>";
+		};
+		0D61D36A20BFDA1B009BB10E /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				0D61D36020BF3FAE009BB10E /* NewsfeedTableViewController.swift */,
+			);
+			path = Newsfeed;
+			sourceTree = "<group>";
+		};
+		0D61D36B20BFDA34009BB10E /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D61D36620BF48AB009BB10E /* ImagePickerHelper.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		0D61D37020BFDE9F009BB10E /* Profile Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0D61D36E20BFDE99009BB10E /* ProfileViewController.swift */,
+			);
+			path = "Profile Tab";
+			sourceTree = "<group>";
+		};
 		0D7CA71420B9E5DE007F2716 = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +128,17 @@
 		0D7CA71F20B9E5DE007F2716 /* Moments-App */ = {
 			isa = PBXGroup;
 			children = (
+				0D61D36820BFD92B009BB10E /* Moments-App.entitlements */,
 				0D7CA72020B9E5DE007F2716 /* AppDelegate.swift */,
 				0D2A145720BC9FB0005FA212 /* Model */,
 				0D7CA72420B9E5DE007F2716 /* Main.storyboard */,
+				0D61D37020BFDE9F009BB10E /* Profile Tab */,
 				0D7CA72720B9E5E0007F2716 /* Assets.xcassets */,
 				0D7CA72920B9E5E0007F2716 /* LaunchScreen.storyboard */,
 				0D7CA72C20B9E5E0007F2716 /* Info.plist */,
+				0D61D36B20BFDA34009BB10E /* Helper Classes */,
+				0D61D36A20BFDA1B009BB10E /* Newsfeed */,
+				0D61D36920BFDA0F009BB10E /* User Authentication */,
 			);
 			path = "Moments-App";
 			sourceTree = "<group>";
@@ -142,6 +194,11 @@
 				TargetAttributes = {
 					0D7CA71C20B9E5DE007F2716 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -240,10 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D61D36120BF3FAE009BB10E /* NewsfeedTableViewController.swift in Sources */,
+				0D61D36320BF3FBB009BB10E /* SignUpTableViewController.swift in Sources */,
+				0D61D36F20BFDE99009BB10E /* ProfileViewController.swift in Sources */,
+				0D61D36D20BFDA72009BB10E /* LoginTableViewController.swift in Sources */,
 				0D2A145620BC98FB005FA212 /* FirebaseReference.swift in Sources */,
+				0D61D36720BF48AB009BB10E /* ImagePickerHelper.swift in Sources */,
 				0D2A145B20BCB56C005FA212 /* FIRImage.swift in Sources */,
 				0D7CA72120B9E5DE007F2716 /* AppDelegate.swift in Sources */,
 				0D2A145920BC9FCA005FA212 /* User.swift in Sources */,
+				0D61D36520BF3FDC009BB10E /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +451,7 @@
 			baseConfigurationReference = C9EDFF17C133C345799E510C /* Pods-Moments-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Moments-App/Moments-App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYK92P2HLR;
 				INFOPLIST_FILE = "Moments-App/Info.plist";
@@ -407,6 +471,7 @@
 			baseConfigurationReference = 2644807592D734900B8CC2B6 /* Pods-Moments-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Moments-App/Moments-App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYK92P2HLR;
 				INFOPLIST_FILE = "Moments-App/Info.plist";

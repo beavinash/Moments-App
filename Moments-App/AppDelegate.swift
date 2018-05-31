@@ -20,12 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
-        let dummyUser = User(uid: "123A", username: "usernameMy", fullName: "myname", bio: "mybio", website: "myweb", profileImage: UIImage(named: "1"), follows: [], followedBy: [])
-        
-        dummyUser.save { (error) in
-            print(error)
-        }
-        
         return true
     }
 
